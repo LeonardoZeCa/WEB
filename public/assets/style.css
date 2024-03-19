@@ -1,0 +1,158 @@
+html{
+    font-family:Arial, Helvetica, sans-serif
+}
+.navbar{
+    background-color:#050505;
+    color:#ffff;
+}
+.navbar-brand{
+    color:white;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 2rem;
+
+}
+.footer{
+    background-color:#050505;
+    color:#ffff;
+    padding:1rem;
+    align-content: center;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align: center;
+}
+
+/*===========Cart page===========*/
+.product-container{
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.product-header{
+    width:100%;
+    max-width: 650px;
+    display:flex;
+    justify-content: flex-start;
+    border-bottom:4px solid grey;
+    margin:0 auto;
+}
+
+.product-name{
+    width:40%;
+}
+
+.product-price{
+    width:15%;
+    margin-right:10px;
+    display:flex;
+    align-items: center;
+}
+.product-total{
+    width:10%;
+
+    display:flex;
+    align-items: center;
+
+}
+.product-quantity{
+    width:30%;
+
+    display:flex;
+    align-items: center;
+
+}
+
+.products{
+    width: 45%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+
+}
+/*===========Login page===========*/
+
+#loginbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 90vh;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 600px;
+    padding: 0px 20px 0px 20px;
+    flex-flow: column wrap;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#loginform{
+    /* border: 2px solid blue; */
+    height: 300px;
+    align-items: center;
+    width: 500px;
+    margin: 10px;
+}
+
+.container-fluid{
+    background-color: gray;
+}
+
+#loginh2{
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.g-signin2{
+    width: 200px;
+}
+/*===========Sign Up page===========*/
+
+#signbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 90vh;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 600px;
+    padding: 0px 20px 0px 20px;
+    flex-flow: column wrap;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#signupform{
+    /* border: 2px solid blue; */
+    height: 370px;
+    align-items: center;
+    width: 650px;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+#signh2{
+    align-self: flex-start;
+    justify-content: center;
+}
